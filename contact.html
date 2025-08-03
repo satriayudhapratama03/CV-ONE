@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>CV ONE - Quality Tea</title>
+
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/fontawesome.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/solid.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-inner">
+        <a href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>
+        <div class="burger" id="burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <div class="dropdown" id="dropdown">
+            <a href="#" class="dropdown-toggle" id="dropdownToggle">About</a>
+            <div class="dropdown-menu" id="dropdownMenu">
+              <a href="about.html">Abous Us</a>
+              <a href="gardens.html">Our Gardens</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-section">
+        <div class="contact-left">
+          <h3>GET IN TOUCH</h3>
+          <p>Let us know how we can support your tea business.</p>
+        </div>
+        <div class="contact-right">
+          <h4>PHONE/EMAIL</h4>
+          <p>Monday - Friday at 09:00 AM - 16:00 PM<br>Indonesia/Ciwidey</p>
+          <div class="contact-boxes">
+            <div class="box">081224348822</div>
+            <div class="box">cs@cvone.co.id</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="partner-form-section">
+        <h2>ORDER FORM</h2>
+        <form class="partner-form">
+          <label for="title">Title</label>
+          <select id="title" name="title">
+            <option value="">Select</option>
+            <option value="mr">Mr.</option>
+            <option value="ms">Mrs.</option>
+            <option value="dr">Ms.</option>
+          </select>
+
+          <label for="firstName">First Name*</label>
+          <input type="text" id="firstName" name="firstName" required>
+
+          <label for="lastName">Last Name*</label>
+          <input type="text" id="lastName" name="lastName" required>
+
+          <label for="email">Email Address*</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Phone Number*</label>
+          <div class="phone-row">
+            <select id="countryCode" name="countryCode" required>
+              <option value="+62">+62</option>
+            </select>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+
+          <label for="cooperationType">Type of cooperation of interest*</label>
+          <input type="text" id="cooperationType" name="cooperationType" required>
+
+          <label for="company">Company / organization*</label>
+          <input type="text" id="company" name="company" required>
+
+          <label for="message">Message*</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <div class="custom-button">
+            <button type="submit">
+              <span>Submit</span>
+              <svg class="arrow-line" viewBox="0 0 130 30" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="15" x2="122" y2="15" stroke="black" stroke-width="4" />
+                <polyline points="110,5 125,15 110,25" fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+          <p>We’re going to respond to you as soon as possible.</p>
+          <button id="closeModal">OK</button>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-columns">
+        <div class="footer-left">
+          <div>
+            <h4>HEAD OFFICE :</h4>
+            <p>Jl. Raya Ciwidey No. 12,<br>
+              Desa Cibereum, Kec. Pasirjambu Kabupaten. Bandung,<br>
+              Jawa Barat 40972
+            </p>
+          </div>
+          <div class="contact-us">
+            <h4>CONTACT US</h4>
+            <a href="become-a-partner.html">Become a Partner CV ONE</a>
+            <p>Telepon/WhatsApp : 081224348822</p>
+            <p>Email : cs@cvone.co.id</p>
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="faq">
+            <h4>FAQS</h4>
+            <p class="question">DOES CV ONE ACCEPT ORDERS FROM INDIVIDUALS OR PERSONAL?</p>
+            <p class="answer">Yes, CV ONE accepts orders from individuals or personal buyers.</p>
+
+            <p class="question">WHAT ARE THE REQUIREMENTS TO PLACE ORDER WITH CV ONE?</p>
+            <p class="answer">Requirements include a valid business purpose and contact information.</p>
+
+            <p class="question">CAN I PURCHASE A SMALL QUANTITY OG TEA FOR PERSONAL USE OR SAMPLING?</p>
+            <p class="answer">Yes, small quantity purchases for personal use or sampling are allowed.</p>
+
+            <p class="question">I’M AN INDIVIDUAL PLANNING TO START A TEA BUSINESS, CAN I COLLABORATE WITH CV ONE?</p>
+            <p class="answer">CV ONE supports new business ventures and welcomes collaboration.</p>
+          </div>
+          <div>
+            <h4>CONNECT WITH US</h4>
+            <p>@cvone.tea</p>
+          </div>
+        </div>
+      </div>
+    <p>CV ONE — SUPPLYING QUALITY TEA SINCE DAY ONE. FOR OFFICIAL BUSINESS PURPOSES ONLY — CORPORATE INFO</p>
+    </footer>
+
+    <script src="assets/js/contact.js"></script>
+  </body>
+</html>

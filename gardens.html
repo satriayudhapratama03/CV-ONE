@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>CV ONE - Quality Tea</title>
+
+    <link rel="stylesheet" href="assets/css/our-gardens.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/fontawesome.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/solid.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-inner">
+        <a href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>
+        <div class="burger" id="burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="about.html">About Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-title">
+        <h2>OUR GARDEN</h2>
+        <p>
+          Nestled in the fertile highlands of West Java,<br>
+          CV ONE’s tea gardens span 1,270 hectares — enriched by volcanic soil,<br>
+          cool mountain air, and gentle morning mist. Our tea leaves are hand-picked using the
+          “two leaves and one shoot” method, passed down through generations to preserve the taste, aroma,
+          and character of every batch.<br><br>
+          This land is more than a garden — it’s a living heritage.<br>
+          Surrounded by rivers and rich biodiversity, we farm sustainably, in harmony with nature and local wisdom.<br>
+          From sunrise to sunset, our teas are crafted with care, telling stories of the land, the people,
+          and the spirit of true craftsmanship.
+        </p>
+      </section>
+
+      <section class="gardens">
+        <div class="slider-wrapper">
+          <button class="slider-button left" onclick="scrollSlider(-1)">&#8249;</button>
+          <div class="container" id="slider">
+            <div class="garden" style="background-image: url('assets/images/marga\ mulya.jpg');" onclick="focusMap(-7.168439038910827, 107.59518975524523)">
+              <div class="overlay">MARGA MULYA</div>
+            </div>
+            <div class="garden" style="background-image: url('assets/images/ranca\ bolang.webp');" onclick="focusMap(-7.1861417, 107.4478069)">
+              <div class="overlay">RANCABOLANG</div>
+            </div>
+            <div class="garden" style="background-image: url('assets/images/patuahwatee.webp');" onclick="focusMap(-7.1706795, 107.3993162)">
+              <div class="overlay">PATUAHWATTEE</div>
+            </div>
+            <div class="garden" style="background-image: url('assets/images/teh-dewata.webp');" onclick="focusMap(-7.2139922, 107.4783237)">
+              <div class="overlay">DEWATA</div>
+            </div>
+            <div class="garden" style="background-image: url('assets/images/rancabali.jpeg');" onclick="focusMap(-7.1506602, 107.3809806)">
+              <div class="overlay">RANCABALI</div>
+            </div>
+            <div class="garden" style="background-image: url('assets/images/gambung.jpg');" onclick="focusMap(-7.1144045, 107.4980382)">
+              <div class="overlay">GAMBUNG</div>
+            </div>
+            <div class="garden" style="background-image: url('assets/images/chakra.webp');" onclick="focusMap(-7.1381201, 107.3238909)">
+              <div class="overlay">CHAKRAKANAAN</div>
+            </div>
+          </div>
+          <button class="slider-button right" onclick="scrollSlider(1)">&#8250;</button>
+        </div>
+      </section>
+
+      <iframe id="mapFrame" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.526131299869!2d107.4370886!3d-6.4549897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e99b7b3ecf1d%3A0x8360c09ef66fd0ea!2sRanca%20Bolang%20Tea%20Estate!5e0!3m2!1sen!2sid!4v1721829600000" allowfullscreen="" loading="lazy"></iframe>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-columns">
+        <div class="footer-left">
+          <div>
+            <h4>HEAD OFFICE :</h4>
+            <p>Jl. Raya Ciwidey No. 12,<br>
+              Desa Cibereum, Kec. Pasirjambu Kabupaten. Bandung,<br>
+              Jawa Barat 40972
+            </p>
+          </div>
+          <div class="contact-us">
+            <h4>CONTACT US</h4>
+            <a href="become-a-partner.html">Become a Partner CV ONE</a>
+            <p>Telepon/WhatsApp : 081224348822</p>
+            <p>Email : cs@cvone.co.id</p>
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="faq">
+            <h4>FAQS</h4>
+            <p class="question">DOES CV ONE ACCEPT ORDERS FROM INDIVIDUALS OR PERSONAL?</p>
+            <p class="answer">Yes, CV ONE accepts orders from individuals or personal buyers.</p>
+
+            <p class="question">WHAT ARE THE REQUIREMENTS TO PLACE ORDER WITH CV ONE?</p>
+            <p class="answer">Requirements include a valid business purpose and contact information.</p>
+
+            <p class="question">CAN I PURCHASE A SMALL QUANTITY OG TEA FOR PERSONAL USE OR SAMPLING?</p>
+            <p class="answer">Yes, small quantity purchases for personal use or sampling are allowed.</p>
+
+            <p class="question">I’M AN INDIVIDUAL PLANNING TO START A TEA BUSINESS, CAN I COLLABORATE WITH CV ONE?</p>
+            <p class="answer">CV ONE supports new business ventures and welcomes collaboration.</p>
+          </div>
+          <div>
+            <h4>CONNECT WITH US</h4>
+            <p>@cvone.tea</p>
+          </div>
+        </div>
+      </div>
+    <p>CV ONE — SUPPLYING QUALITY TEA SINCE DAY ONE. FOR OFFICIAL BUSINESS PURPOSES ONLY — CORPORATE INFO</p>
+    </footer>
+
+    <script src="assets/js/our-gardens.js"></script>
+  </body>
+</html>
