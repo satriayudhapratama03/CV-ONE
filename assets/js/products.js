@@ -194,3 +194,16 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+// === Slider scroll button function (global) ===
+function scrollSlider(direction) {
+  const slider = document.getElementById("slider");
+  const scrollAmount = 220; // Adjust depending on thumbnail width + margin
+
+  if (slider) {
+    slider.scrollBy({
+      left: direction * scrollAmount,
+      behavior: 'smooth'
+    });
+  }
+}
