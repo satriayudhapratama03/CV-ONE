@@ -237,6 +237,10 @@ nav a:hover {
   color: var(--color4);
 }
 
+.overlay:hover {
+  color: var(--color4);
+}
+
 .map {
   width: 100%;
   height: 600px;
