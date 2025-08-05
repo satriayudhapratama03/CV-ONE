@@ -261,6 +261,18 @@ nav a:hover {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px) {
+  .garden {
+    flex: 0 0 90%;
+    max-width: 90%;
+    height: 200px; /* You can adjust if needed */
+  }
+  
+  .map {
+    height: 500px;
+  }
+}
+
 footer {
   background-color: var(--color1);
   color: white;
@@ -375,5 +387,6 @@ footer > p:last-child {
   margin-top: 120px;
 
 }
+
 
 
