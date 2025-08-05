@@ -781,23 +781,6 @@ body.dropdown-open .dropdown-menu a:hover {
     min-width: unset;
     transform: translate(-50%, -50%) scale(1);
   }
-
-  .journey-image-wrapper:hover {
-    flex: none;
-  }
-
-  .journey-image-wrapper:hover img {
-    transform: translate(-50%, -50%) scale(1);
-  }
-
-  .journey-image-wrapper:hover .overlay {
-    opacity: 1;
-  }
-
-  .journey-images-row:hover .journey-image-wrapper:not(:hover) {
-    flex: 0.8;
-    z-index: 1;
-  }
   
   .journey-overlay-title {
     font-size: 20px;
@@ -955,4 +938,5 @@ footer > p:last-child {
   font-size: 13.5px;
   margin-top: 120px;
 }
+
 
