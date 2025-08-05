@@ -261,17 +261,6 @@ nav a:hover {
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
-  .gardens {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .map {
-    height: 500px;
-  }
-}
-
 footer {
   background-color: var(--color1);
   color: white;
@@ -386,4 +375,5 @@ footer > p:last-child {
   margin-top: 120px;
 
 }
+
 
