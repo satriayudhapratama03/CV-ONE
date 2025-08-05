@@ -215,7 +215,7 @@ nav a:hover {
 
 .garden {
   flex: 0 0 90%;
-  max-width: 90%;
+  max-width: 300px;
   height: 200px;
   position: relative;
   background-size: cover;
@@ -389,4 +389,5 @@ footer > p:last-child {
   text-align: center;
   font-size: 13.5px;
   margin-top: 120px;
+
 }
