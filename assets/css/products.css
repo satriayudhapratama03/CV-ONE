@@ -315,6 +315,65 @@ nav a:hover {
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 100vh;
+    padding: 0 20px;
+  }
+
+  .hero-overlay {
+    width: calc(100% - 40px);
+    left: 20px;
+    right: 20px;
+    padding: 15px 20px 45px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+  
+  .button-wrapper {
+    justify-content: space-between;
+  }
+
+  .indicator-wrapper {
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .indicator {
+    width: 10px;
+    height: 10px;
+    border-width: 1.5px;
+  }
+
+  .custom-button {
+    font-size: 14px;
+    padding: 2px 12px;
+    gap: 8px;
+    height: 16px;
+    margin-left: 0;
+    margin-top: 20px;
+    border-radius: 16px;
+  }
+
+  .custom-button a {
+    gap: 8px;
+  }
+
+  .arrow-line {
+    width: 40px;
+  }
+
+  .content-wrapper {
+    align-items: flex-start;
+  }
+}
+
 /*products section*/
 .products {
   margin: 40px 60px 0;;
@@ -456,6 +515,87 @@ nav a:hover {
 
 .products-slider-button.right {
   right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .products {
+    margin: 40px 20px 0;
+    gap: 50px;
+  }
+
+  .products-desc {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .products-desc h2 {
+    font-size: 28px;
+  }
+
+  .products-desc p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .product.active {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .product img {
+    max-height: 240px;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  .product-desc {
+    width: 100%;
+  }
+
+  .product-desc h3 {
+    font-size: 24px;
+  }
+
+  .product-desc p {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .products-slider-wrapper {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .products-container {
+    gap: 8px;
+    padding-bottom: 10px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .product-thumbnail {
+    flex: 0 0 180px;
+  }
+
+  .product-thumbnail img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .thumbnail-overlay {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .products-slider-button {
+    font-size: 24px;
+    padding: 6px 10px;
+  }
 }
 
 footer {

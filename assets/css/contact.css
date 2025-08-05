@@ -374,7 +374,74 @@ nav a:hover {
   flex: 1;
 }
 
-.partner-form button a {
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: rgba(124, 45, 38, 0.9);
+  padding: 30px 60px;
+  border: 1px solid #222;
+  font-family: 'Georgia', serif;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.modal h2 {
+  font-family: 'Religath';
+  font-size: 40px;
+  font-weight: normal;
+  color: var(--color4);
+  margin: 0 0 15px;
+}
+
+.modal h3 {
+  font-family: 'Garamond Bold';
+  font-size: 26px;
+  font-weight: normal;
+  color: white;
+  margin: 0 0 15px;
+}
+
+.modal p {
+  font-family: 'Garamond';
+  color: white;
+  line-height: 20px;
+  margin-top: 0;
+}
+
+.custom-button-modul {
+  padding-top: 15px;
+  display: flex;
+  justify-content: end;
+}
+
+.modal button {
+  padding: 3px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  font-family: 'Garamond-Bold';
+  font-size: 16px;
+  height: 30px;
+  margin-left: auto;
+  background-color: var(--color3);
+  cursor: pointer;
+}
+
+.modal button a {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -406,35 +473,101 @@ nav a:hover {
   }
 }
 
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-}
+@media screen and (max-width: 768px) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 120px 20px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+  }
 
-.modal {
-  background: white;
-  padding: 30px 20px;
-  border: 1px solid #222;
-  font-family: 'Georgia', serif;
-  max-width: 400px;
-  text-align: center;
-}
+  .contact-left,
+  .contact-right {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+  }
 
-.modal button {
-  margin-top: 20px;
-  padding: 6px 16px;
-  border: 1px solid #222;
-  background-color: transparent;
-  cursor: pointer;
-  font-family: 'Georgia', serif;
+  .contact-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contact-boxes .box {
+    width: 100%;
+    max-width: 300px;
+    word-wrap: break-word;
+  }
+
+  .partner-form-section {
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 20px;
+  }
+
+  .partner-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .partner-form label {
+    text-align: left;
+    width: 100%;
+  }
+
+  .partner-form input,
+  .partner-form select,
+  .partner-form textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .phone-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .custom-button,
+  .custom-button-modul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .custom-button button,
+  .custom-button-modul button {
+    font-size: 16px;
+    padding: 10px 20px;
+    max-width: 100%;
+  }
+
+  .custom-button svg.arrow-line,
+  .custom-button-modul svg.arrow-line {
+    width: 80px;
+    height: 20px;
+  }
+
+  .modal {
+    padding: 30px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .modal-overlay {
+    overflow-x: hidden;
+  }
 }
 
 footer {
